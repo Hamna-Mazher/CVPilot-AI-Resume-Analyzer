@@ -1,36 +1,204 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 CVPilot - AI Resume Analyzer
 
-## Getting Started
+CVPilot is a modern AI-powered Resume Analyzer built with **Next.js, React, TypeScript, and Tailwind CSS**. It helps job seekers evaluate their resumes through ATS scoring, skill analysis, keyword matching, and AI-powered recommendations, all within a clean and responsive user interface.
 
-First, run the development server:
+---
+
+## 📌 Project Overview
+
+Finding a job often starts with creating an ATS-friendly resume. CVPilot simplifies this process by providing an interactive dashboard where users can upload resumes, view ATS scores, analyze skills, identify missing keywords, and receive AI-inspired improvement suggestions.
+
+The project focuses on delivering a professional user experience with a modern glassmorphism design and fully responsive layouts.
+
+---
+
+## ✨ Features
+
+### 🏠 Landing Page
+
+* Modern hero section
+* Feature highlights
+* Statistics cards
+* Pricing section
+* Call-to-action section
+* Responsive navigation
+* Professional footer
+
+### 📊 Dashboard
+
+* ATS Score overview
+* Recruiter Fit score
+* Skills Found statistics
+* Keyword Match analysis
+* Resume Performance charts
+* Skills Distribution visualization
+* Recent Resume history
+* Quick action cards
+
+### 📄 Resume Upload
+
+* Upload resume interface
+* Easy navigation
+* Clean and responsive design
+
+### 🤖 AI Analysis
+
+* ATS Score report
+* Skills detected
+* Missing keywords
+* AI recommendations
+* Resume summary
+* Download report option
+
+### ⚙️ Settings
+
+* Profile information
+* Resume preferences
+* Account management
+* Professional settings interface
+
+### 📱 Responsive Design
+
+* Desktop optimized
+* Tablet friendly
+* Mobile responsive
+* Modern glassmorphism UI
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+
+### Styling
+
+* Tailwind CSS
+
+### Icons
+
+* Lucide React
+
+### Charts
+
+* Custom Chart Components
+
+---
+
+## 📂 Project Structure
+
+```
+CVPilot/
+│
+├── app/
+│   ├── dashboard/
+│   ├── upload/
+│   ├── analysis/
+│   ├── settings/
+│   └── page.tsx
+│
+├── components/
+│   ├── dashboard/
+│   ├── layout/
+│   ├── charts/
+│   └── ui/
+│
+├── public/
+├── styles/
+└── README.md
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/CVPilot.git
+```
+
+Navigate to the project
+
+```bash
+cd CVPilot
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📷 Main Pages
 
-To learn more about Next.js, take a look at the following resources:
+* Landing Page
+* Dashboard
+* Upload Resume
+* Resume Analysis
+* Settings
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Key Functionalities
 
-## Deploy on Vercel
+* AI-inspired Resume Analysis
+* ATS Score Visualization
+* Skills Distribution
+* Missing Keyword Detection
+* Resume Performance Dashboard
+* Interactive User Experience
+* Responsive Layout
+* Modern Glassmorphism Design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💡 Future Improvements
+
+* OpenAI API Integration
+* Real Resume Parsing
+* Authentication System
+* Database Integration
+* Resume History
+* PDF Report Generation
+* Dark & Light Theme Toggle
+* Multi-language Support
+
+---
+
+## 👩‍💻 Author
+
+**Hamna Mazher**
+
+Frontend Developer passionate about creating modern, responsive, and user-friendly web applications using React, Next.js, TypeScript, and Tailwind CSS.
+
+---
+
+## 📄 License
+
+This project is developed for educational and portfolio purposes.
+
+---
+
+## ⭐ Acknowledgements
+
+Special thanks to the open-source community and modern web technologies that made this project possible.
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
